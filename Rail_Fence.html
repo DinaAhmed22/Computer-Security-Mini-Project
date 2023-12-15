@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Rail Fence Cipher</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <h1 class="title">Rail Fence Cipher</h1>
+  <div class="container">
+    <form class="form">
+      <p class="description">Enter the text:</p>
+      <textarea id="input-text" class="form-input" placeholder="Enter your text"></textarea>
+      <p class="description">Enter the number of rails:</p>
+      <input id="num-rails" class="form-input" type="number" min="8" placeholder="Enter the number of rails">
+      <div class="button-container">
+        <button class="form-button" onclick="encrypt()">Encrypt</button>
+        <button class="form-button" onclick="decrypt()">Decrypt</button>
+      </div>
+      <hr>
+      <p class="description">Result:</p>
+      <textarea id="output-text" class="form-input" placeholder="Result" readonly></textarea>
+    </form>
+  </div>
+  <script src="rail_fence.js"></script>
+</body>
+
+</html>

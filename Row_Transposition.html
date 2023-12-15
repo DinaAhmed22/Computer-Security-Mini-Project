@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Row Transposition Encryption and Decryption</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1 class="title">Row Transposition Encryption and Decryption</h1>
+    <div class="container">
+        <form class="form">
+            <input id="text-input" class="form-input" type="text" placeholder="Enter your text">
+            <input id="key-input" class="form-input" type="text" placeholder="Enter the key">
+            <div class="button-container">
+                <button class="form-button" onclick="encryptText(event)">Encrypt</button>
+                <button class="form-button" onclick="decryptText(event)">Decrypt</button>
+            </div>
+            <div class="output-container">
+                <input id="output-text" class="form-input" type="text" placeholder="Output will appear here" readonly>
+            </div>
+        </form>
+    </div>
+    <a class="link" href="encrypt_decrypt.html">Go back to techniques</a>
+    <script src="script.js"></script>
+</body>
+</html>

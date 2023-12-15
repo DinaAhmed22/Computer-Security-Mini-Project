@@ -1,0 +1,156 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.technique-link {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #0000EE;
+    text-decoration: none;
+}
+
+.technique-link:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Title Styles */
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #4a9bff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Button Styles */
+.button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4a9bff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2679e8;
+    transform: scale(1.05);
+}
+
+/* Container Styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Description Styles */
+.description {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 40px;
+}
+
+/* Image Styles */
+.welcome-image {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Link Styles */
+.link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #4a9bff;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Form Styles */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#text-input{
+    width: 25%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #4a9bff;
+    background-color: #ffffff;
+}
+
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.form-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4a9bff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #2679e8;
+    transform: scale(1.05);
+}

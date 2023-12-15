@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vigenere Encryption and Decryption</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1 class="title">Vigenere Encryption and Decryption</h1>
+    <div class="container">
+        <form class="form">
+            <p class="description">Enter the plain text:</p>
+            <input id="plain-text-input" class="form-input" type="text" placeholder="Enter your plain text">
+
+            <p class="description">Enter the key:</p>
+            <input id="key-input" class="form-input" type="text" placeholder="Enter the key">
+
+            <div class="button-container">
+                <button class="form-button" onclick="encryptText(event)">Encrypt</button>
+                <button class="form-button" onclick="decryptText(event)">Decrypt</button>
+            </div>
+        </form>
+        <div class="result-container">
+            <p class="result" id="encryption-result"></p>
+            <p class="result" id="decryption-result"></p>
+        </div>
+        <a class="link" href="encrypt_decrypt.html">Go back to techniques</a>
+    </div>
+
+    <script src="vigenere.js"></script>
+</body>
+</html>
